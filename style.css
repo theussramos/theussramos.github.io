@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    }
+
+
+body {
+    padding: 5% 5% 10% 5%;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-color: rgb(255, 145, 0);
+    opacity: 0,3;
+ }
+
+ #presentation {
+    border: 50px;
+    padding: 10px 10px;
+    
+ }
