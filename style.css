@@ -52,9 +52,10 @@ nav img {
 #projects {
   display: flex;
   background-color: rgba(247, 247, 247, 0.706);
-  width: 100%;
+  flex-basis: 300px;
   padding: 20px;
   margin-top: 40px;
+  justify-content: center;
 
 }
 
@@ -63,4 +64,17 @@ nav img {
   width: 250px;
   height: 250px;
   margin-left: 30px;
+  border-radius: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.title-project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
 }
