@@ -1,0 +1,14 @@
+footer {
+  background-color: rgb(93, 93, 93);
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav img {
+  width: 50px;
+}
