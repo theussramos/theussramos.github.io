@@ -12,9 +12,31 @@ main {
     display: flex;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    margin-left: 100px;
+    margin-right: 25px;
+    border-radius: 10px;
+
+  }
+  
+  nav img {
+    width: 40px;
+    margin-left: 15px;
+    
+  }
+
 .photo-profile {
     width: 450px;
-    border-radius: 45%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .about-me {
@@ -27,26 +49,12 @@ main {
     text-align: justify;
     font-size: large;
     margin-left: 150px;
+    margin-top: 20px;
 }
 
 .about-me h2 {
     text-align: center;
-}
-footer {
-  background-color: rgba(93, 93, 93, 0.418);
-  width: 100%;
-  bottom: 0px;
-  position: fixed;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-nav img {
-  width: 40px;
-  margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 #projects {
