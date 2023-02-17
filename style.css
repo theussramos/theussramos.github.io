@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('imagens/background-1200x800.jpg');
+    background-size: cover;
+}
+
+body {
+    color: white;
+}
+
+.photo-profile {
+    width: 400px;
+}
+
+.about-me {
+    display: flex;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 7px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: justify;
+    font-size: large;
+}
+.about-me h2 {
+    text-align: center;
+}
